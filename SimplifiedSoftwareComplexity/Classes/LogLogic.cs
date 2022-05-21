@@ -9,7 +9,8 @@ namespace SimplifiedSoftwareComplexity.Classes
         //TODO: Need unit tests against this.
         //TODO: Enable decorators to hook into code context?
         //TODO: Implement async patterns.
-        // It is the LogLogic's responsibility to retrieve LogLogicRecords, write to logging system, display Record properties and possibly translate them externally, and to implement basic textual informational as exception alerting and possibly handling.
+        // It is the LogLogic's responsibility to retrieve LogLogicRecords, write to logging system, display Record properties and possibly translate them externally
+        // to an IDisplay, and to implement basic textual informational as exception alerting and possibly handling.
         readonly string space = " ";
         readonly string comma = ",";
         readonly string period = ".";
@@ -124,7 +125,7 @@ namespace SimplifiedSoftwareComplexity.Classes
             return LogLogicRecord.LogRecord.IsMethodEnd;
         }
 
-        public void DisplayAllRecordsToConsole()
+        public void DisplayAllRecordsToConsole() // TODO: Save this for IDisplay potentially.
         {
 
         }

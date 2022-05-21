@@ -1,6 +1,6 @@
 ﻿namespace SimplifiedSoftwareComplexity.Fundamentals.Interfaces
 {
-    public interface IPageRecord : IRecord, IGeneral
+    public interface IPageRecord : IRecord, IGeneral // See how this is simplified with an IRecord?
     {
         string PageName { get; set; }
         object? PageObject { get; set; } //TODO: Every page should probably have a LogWriter.

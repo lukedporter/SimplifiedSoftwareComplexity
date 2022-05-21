@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Displays\" />
     <Folder Include="Globals\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

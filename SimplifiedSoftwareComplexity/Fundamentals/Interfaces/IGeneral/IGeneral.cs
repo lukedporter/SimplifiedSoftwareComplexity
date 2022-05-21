@@ -2,6 +2,6 @@
 {
     public interface IGeneral : IFundamental
     {
-        // General implementations of IDos, IStructures, and ITimes
+        // Definitions of typical things we may expect to be in common with every software solution, such as descriptions of an application, a type of change record for changes made, and session information.
     }
 }
