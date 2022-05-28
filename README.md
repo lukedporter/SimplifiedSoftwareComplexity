@@ -25,7 +25,6 @@
 * ILogic - Intended for complex logic, possibly involving multiple records, for reading and writing data. Interfaces with IDisplays (optionally, see IDisplay) and ILogicRecords (inherits from IRecord).
 * ILogicRecord - Intended usually to house multiple IRecords. Couples with an ILogic.
 * IDisplay - Intended only for complex logic related to displaying information. Interfaces with ILogics. These can also be known as ViewModels. An ILogic does not need to have an IDisplay, as it could just be used as backend code and not for display purposes.
-* IService - To indicate something is a service where it may centrally handle either network or data type connections.
 ---
 ## Definitions of IDo
 * IDo - Describes that something does something.
